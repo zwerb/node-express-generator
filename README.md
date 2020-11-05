@@ -3,7 +3,7 @@
 https://expressjs.com/en/starter/generator.html
 
 
-## Startup
+## Startup:
 
 
 ### After First Time
@@ -12,6 +12,12 @@ https://expressjs.com/en/starter/generator.html
 cd node-express-generator/appA
 
 npx pm2 start
+
+# to update / restart
+
+git pull
+
+npx pm2 restart www
 ```
 
 
